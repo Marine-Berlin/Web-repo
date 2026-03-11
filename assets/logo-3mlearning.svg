@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="3M learning logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B3DDCD"/>
+      <stop offset="100%" stop-color="#7C9ACC"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="22" fill="url(#g)"/>
+  <text x="60" y="55" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#0f2f4e">3M</text>
+  <text x="60" y="84" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#0f2f4e">learning</text>
+</svg>

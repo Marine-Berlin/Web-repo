@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60" role="img" aria-label="Logo Efrei">
+  <rect width="220" height="60" rx="12" fill="#ffffff"/>
+  <text x="20" y="38" font-family="Arial" font-size="30" font-weight="700" fill="#19324d">efrei</text>
+  <circle cx="188" cy="30" r="14" fill="#E8BED3"/>
+</svg>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playground CSS | 3M_learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-3mlearning.svg" alt="Logo 3M_learning">
+      <span>3M_learning</span>
+    </a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html" class="active">CSS</a>
+      <a href="javascript.html">JavaScript</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Playground CSS</h1>
+    <div class="playground-layout">
+      <section class="playground-panel">
+        <h2>Code CSS</h2>
+        <textarea id="code">body { font-family: Arial, sans-serif; }
+h1 { color: #7C9ACC; }
+.demo { background: #D0E7DA; padding: 12px; border-radius: 8px; }
+button { background: #E8BED3; border: none; padding: 8px 12px; }</textarea>
+        <button data-action="run" class="btn">Exécuter</button>
+      </section>
+      <section class="playground-panel">
+        <h2>Résultat</h2>
+        <iframe id="result"></iframe>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-logo-wrap">
+      <img src="assets/logo-efrei.svg" alt="Logo Efrei">
+    </div>
+    <p>web site created by Marine Berlin, Marine Frantz, Mathilde Lambourg</p>
+  </footer>
+  <script src="playground.js"></script>
+  <script>runPlayground({ codeSelector: '#code', frameSelector: '#result', mode: 'css' });</script>
+</body>
+</html>
