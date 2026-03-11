@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3M_learning | JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-3mlearning.svg" alt="Logo 3M_learning">
+      <span>3M_learning</span>
+    </a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+      <a href="javascript.html" class="active">JavaScript</a>
+    </nav>
+  </header>
+
+  <main class="lesson-page">
+    <h1>Formation JavaScript</h1>
+    <p>JavaScript ajoute de l'interactivité : clics, formulaires, animations, logique.</p>
+
+    <section class="lesson-step">
+      <h2>1. Variables et affichage</h2>
+      <pre><code>let prenom = "Marine";
+console.log("Bonjour " + prenom);</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>2. Fonctions</h2>
+      <pre><code>function addition(a, b) {
+  return a + b;
+}</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>3. Réagir à un clic</h2>
+      <pre><code>document.querySelector("button").addEventListener("click", () => {
+  alert("Bravo !");
+});</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>4. Manipuler la page</h2>
+      <pre><code>const titre = document.querySelector("h1");
+titre.textContent = "Nouveau titre";</code></pre>
+    </section>
+
+    <a class="btn" href="playground-javascript.html" target="_blank" rel="noopener">Tester le JavaScript en localhost</a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo-wrap">
+      <img src="assets/logo-efrei.svg" alt="Logo Efrei">
+    </div>
+    <p>web site created by Marine Berlin, Marine Frantz, Mathilde Lambourg</p>
+  </footer>
+</body>
+</html>

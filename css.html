@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3M_learning | CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-3mlearning.svg" alt="Logo 3M_learning">
+      <span>3M_learning</span>
+    </a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html" class="active">CSS</a>
+      <a href="javascript.html">JavaScript</a>
+    </nav>
+  </header>
+
+  <main class="lesson-page">
+    <h1>Formation CSS</h1>
+    <p>CSS permet de styliser le HTML : couleurs, espacements, polices, disposition.</p>
+
+    <section class="lesson-step">
+      <h2>1. Cibler un élément</h2>
+      <pre><code>p {
+  color: #7C9ACC;
+  font-size: 18px;
+}</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>2. Créer une classe</h2>
+      <p>Les classes commencent par un point.</p>
+      <pre><code>.important {
+  background-color: #D0E7DA;
+  padding: 10px;
+  border-radius: 8px;
+}</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>3. Mettre en page</h2>
+      <p>Utilisez Flexbox pour aligner des blocs.</p>
+      <pre><code>.container {
+  display: flex;
+  gap: 16px;
+}</code></pre>
+    </section>
+
+    <section class="lesson-step">
+      <h2>4. Effets visuels</h2>
+      <p>Ajoutez des transitions pour rendre l'interface plus fluide.</p>
+      <pre><code>button {
+  transition: transform 0.2s ease;
+}
+button:hover {
+  transform: translateY(-2px);
+}</code></pre>
+    </section>
+
+    <a class="btn" href="playground-css.html" target="_blank" rel="noopener">Tester le CSS en localhost</a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo-wrap">
+      <img src="assets/logo-efrei.svg" alt="Logo Efrei">
+    </div>
+    <p>web site created by Marine Berlin, Marine Frantz, Mathilde Lambourg</p>
+  </footer>
+</body>
+</html>
