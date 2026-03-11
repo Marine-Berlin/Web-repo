@@ -15,3 +15,4 @@ This repository hosts **3M_learning**, a free beginner-friendly platform. The we
 Open `index.html` directly in your browser, or use any local static server.
 
 This repo is licence free. You can clone it and try it yourself.
+If you want, you can install liveserver in VScode and directly run the index.html
